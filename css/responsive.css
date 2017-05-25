@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 22nd December, 2013
+version: 1.0.2
+Description: A default stylesheet for OnEvent - Special Event Landing Page Template Designed & Developed By Saptarang.
+*/
+
+@media only screen and (min-width : 1201px) {
+.navbar-collapse {
+	padding-right: 0;
+}
+}
+
+@media only screen and (min-width : 990px) and (max-width : 1200px) and (orientation : landscape) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 13px;
+}
+.styled div strong {
+	margin: 0 -0.925em;
+}
+#schedule .nav-tabs li {
+	width: 25%;
+	text-align: center;
+}
+#schedule .nav-tabs li i {
+	display: block;
+}
+#schedule .nav-tabs li a {
+	padding: 1.5em 2em ;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 13px;
+}
+a.register-trigger {
+	position: absolute;
+	right: 1.1em;
+	top: -12.5em;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 13px;
+}
+.navigation nav ul li {
+	margin:0 0.3em;
+}
+}
+
+@media only screen and (max-width : 996px) {
+.navbar-header {
+	display: block;
+}
+#home {
+	background-color: #FFF;
+}
+#home .container {
+	width: 100%;
+}
+ul.li-blocks li strong {
+	display: block;
+}
+.venue, .styled {
+	display: block;
+	float: none;
+}
+.styled {
+	width: 100%;
+	margin: 1.5em 0;
+}
+.styled div {
+	width: 18%;
+}
+.styled div strong {
+	margin: 0 -0.935em;
+}
+#register {
+	bottom: 16.7em;
+}
+.regHeading {
+	display: block;
+	text-align: left;
+	margin-top: 2em;
+}
+#register {
+	display: block!important;
+	position: relative;
+	padding: 0.1em 2.5em 2.5em;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	box-shadow: none;
+}
+a.register-trigger {
+	display: none;
+}
+#register {
+	text-align: left;
+}
+.tab-pane {
+	display: block;
+	margin-bottom: 2em;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.tab-pane h3 i {
+	display: inline-block;
+	color: #b2b2b2;
+}
+#schedule .nav-tabs {
+	display: none;
+}
+#speakers .speaker-grid .section {
+	margin-bottom: 2em;
+}
+#partners .li-row a img {
+	width: 100%;
+}
+#partners a img {
+	opacity: 1;
+	filter: none;
+	-webkit-filter: grayscale(0%);
+}
+#questions .col-sm-12 {
+	margin-bottom: 5px;
+}
+#venue .directions-input, #venue .directions-results {
+	padding: 2em 0;
+	border: none;
+}
+.column {
+	height: auto!important;
+}
+ul.address {
+	margin-right: -2em;
+}
+#footer .social a {
+	opacity: 1;
+}
+#footer {
+	text-align: center;
+}
+.styled div {
+	font-size: 1.5em;
+}
+.readIcon {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+}
+
+@media only screen and (min-width:768px) {
+.navigation nav ul li {
+	background-color: transparent!important;
+}
+}
+
+/* Desktops, Large Screen and laptops ----------- */
+@media only screen and (max-width : 767px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 12px;
+}
+.styled div strong {
+	margin: 0 -0.835em;
+}
+.navbar-header {
+	top: -3.75em;
+}
+.navigation nav ul li {
+	display: block;
+	width:100%;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin: 0;
+}
+.navigation nav ul {
+	border-top: 1px solid rgba(0,0,0,0.05);
+	padding: 0;
+}
+.navigation nav ul li .sub-nav {
+	position: relative;
+	visibility:visible;
+	width:100%;
+	left:0;
+	opacity:1;
+	transform:none;
+	border:none;
+}
+.navigation nav ul li .sub-nav li a, .navigation nav ul li .sub-nav li {
+	border-bottom:none;
+}
+.navigation nav ul li .sub-nav li {
+	border-top:1px solid rgba(0,0,0,0.1);
+}
+.navigation nav ul li a {
+	line-height: 3.5em;
+	color: #FFF;
+}
+.navigation nav ul li a:hover {
+	color: #FFF!important;
+}
+.navigation nav ul li .sub-nav li:hover a {
+	background-color: transparent;
+}
+#event-gallery ul li {
+	width: 48%;
+	margin: 1%;
+}
+#event-gallery ul li img {
+	width: 100%;
+}
+#event-slider {
+	display: block;
+	margin-top: 5em;
+}
+}
+
+@media screen and (min-width : 600px) and (max-width : 767px) {
+ul.li-blocks li {
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-style: solid solid none solid;
+}
+ul.li-blocks li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+ul.li-blocks li strong {
+	display: inline;
+}
+ul.li-blocks li {
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-style: solid solid none solid;
+}
+ul.li-blocks li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+ul.li-blocks li strong {
+	display: inline;
+}
+#partners a img {
+	width: 50%;
+}
+.borderBtm {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+}
+ 
+@media only screen and (min-width : 569px) and (max-width : 599px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 12px;
+}
+ul.li-blocks ul.li-row li strong {
+	display: block;
+}
+#partners a img {
+	width: 50%;
+}
+.speaker-grid .section figcaption {
+	display: block;
+	position: relative;
+	min-height: 18em;
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+.speaker i {
+	display: none;
+}
+.speaker .col-md-10 {
+	border: none;
+}
+#register {
+	padding: 1em 2.5em 2.5em;
+}
+}
+
+/* iPhone 5 (landscape)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+#partners .li-row li {
+	width: 50%;
+}
+#partners .li-row li img {
+	width: auto;
+}
+#partners a img {
+	width: 50%;
+}
+}
+
+/* iPhone 5 (portrait)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
+#event-gallery ul li {
+	width: 48%;
+	margin: 1%;
+}
+.speaker-grid div {
+	width: 100%;
+}
+#partners .li-row li {
+	width: 100%;
+}
+#partners a img {
+	width: 100%;
+}
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen and (min-width : 320px) and (max-width : 570px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 12px;
+}
+.styled div {
+	width: 100%;
+}
+#event-gallery ul li {
+	width: 98%;
+	margin: 1%;
+}
+ul.li-blocks li {
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-style: solid solid none solid;
+}
+ul.li-blocks li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+#speakers .img-responsive {
+	width:100%;
+	height:auto;
+}
+.speaker-grid .section figcaption {
+	display: block;
+	position: relative;
+	min-height: 11.5em;
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+.speaker i {
+	display: none;
+}
+.speaker .col-md-10 {
+	border: none;
+}
+#register {
+	padding: 1em 2.5em 2.5em;
+}
+}
+
+@media screen and (max-width : 320px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 11px;
+}
+.styled div {
+	width: 100%;
+	margin: 0;
+}
+ul.li-blocks li {
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-style: solid solid none solid;
+}
+ul.li-blocks li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+#partners a img {
+	width: 100%;
+}
+.speaker-grid .section figcaption {
+	display: block;
+	position: relative;
+	min-height: 18em;
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	-o-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+.speaker i {
+	display: none;
+}
+.speaker .col-md-10 {
+	border: none;
+}
+#register {
+	padding: 1em 2.5em 2.5em;
+}
+}
