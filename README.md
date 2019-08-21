@@ -5,4 +5,4 @@ Self Hosted Blueberry Events for Salesforce
 Self hosted Blueberry Events for Salesforce was developed by Stewart Anderson for NGO and Higher Ed Insititutions to be able to add event management capabilities onto Salesforce Campains. The web pages are developed in c sharp (.net).
 
 # Setup Instructions
-Setup Instructions Availiable here: https://geekstewie.wordpress.com/blueberry-events-helpsetup/
+Setup Instructions Availiable here: https://geekstewie.com/blueberry-events-helpsetup
